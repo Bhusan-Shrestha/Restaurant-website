@@ -85,7 +85,7 @@ header nav {
 }
 
 /* Image slider */
-.carousel-caption{
+.carousel-caption {
     background: rgba(0, 0, 0, 0.6);
     padding: 20px;
     border-radius: 10px;
@@ -153,9 +153,9 @@ section#home .hero-content p {
     margin-bottom: 30px;
 }
 
-    #carouselExampleIndicators .carousel-item {
-        height: clamp(320px, 62vw, 640px);
-    }
+#carouselExampleIndicators .carousel-item {
+    height: clamp(320px, 62vw, 640px);
+}
 
 /* button */
 .site-footer .btn,
@@ -569,7 +569,7 @@ video {
     top: 50%;
     transform: translateY(-50%);
     color: #fff;
-    background: rgba(0,0,0,0.35);
+    background: rgba(0, 0, 0, 0.35);
     border-radius: 50%;
     width: 44px;
     height: 44px;
@@ -578,8 +578,14 @@ video {
     justify-content: center;
     z-index: 1055;
 }
-.lightbox-prev { left: 12px; }
-.lightbox-next { right: 12px; }
+
+.lightbox-prev {
+    left: 12px;
+}
+
+.lightbox-next {
+    right: 12px;
+}
 
 /* When modal is visible, pin controls to the viewport so they don't shift with image size */
 .modal.show .lightbox-control {
@@ -587,10 +593,30 @@ video {
     top: 50%;
     transform: translateY(-50%);
 }
-.modal.show .lightbox-prev { left: 18px; }
-.modal.show .lightbox-next { right: 18px; }
-.lightbox-control i { pointer-events: none; }
-.lightbox-caption { position: absolute; left: 0; right: 0; bottom: 8px; z-index: 1055; font-weight: 600; text-shadow: 0 1px 3px rgba(0,0,0,0.6); }
+
+.modal.show .lightbox-prev {
+    left: 18px;
+}
+
+.modal.show .lightbox-next {
+    right: 18px;
+}
+
+.lightbox-control i {
+    pointer-events: none;
+}
+
+.lightbox-caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 8px;
+    z-index: 1055;
+    font-weight: 600;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
 
 /* Gallery image cursor */
-.gallery-img { cursor: pointer; }
+.gallery-img {
+    cursor: pointer;
+}
