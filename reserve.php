@@ -31,20 +31,20 @@
                 </div>
             </div>
             <div class="col-md-6 contact-info border rounded p-4 border-2">
-                <form action="process_reservation.php" method="POST">
+                <form action="process-reservation.php" method="POST">
                     <div class="mb-3">
                         <label for="name" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
                     </div>
 
                     <div class="row g-3 mb-3">
                         <div class="col-12 col-md-6">
                             <label for="number" class="form-label">Number</label>
-                            <input type="number" class="form-control" id="number" placeholder="Your Number" required>
+                            <input type="tel" class="form-control" id="number" name="number" placeholder="Your Number" required>
                         </div>
                         <div class="col-12 col-md-6">
                             <label for="reservationCount" class="form-label">No of Reservation</label>
-                            <input type="number" class="form-control" id="reservationCount"
+                            <input type="number" class="form-control" id="reservationCount" name="reservationCount"
                                 placeholder="No of Reservation" required>
                         </div>
                     </div>
@@ -52,17 +52,17 @@
                     <div class="row g-3 mb-3">
                         <div class="col-12 col-md-6">
                             <label for="date" class="form-label">Date</label>
-                            <input type="date" class="form-control" id="date" required>
+                            <input type="date" class="form-control" id="date" name="date" required>
                         </div>
                         <div class="col-12 col-md-6">
                             <label for="time" class="form-label">Time</label>
-                            <input type="time" class="form-control" id="time" required>
+                            <input type="time" class="form-control" id="time" name="time" required>
                         </div>
                     </div>
 
                     <div class="mb-3">
                         <label for="message" class="form-label">Message</label>
-                        <textarea class="form-control" id="message" rows="4"
+                        <textarea class="form-control" id="message" name="message" rows="4"
                             placeholder="Add Your Special Request (Optional)"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Send Message</button>
