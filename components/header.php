@@ -1,6 +1,6 @@
 <?php $currentPage = basename($_SERVER['PHP_SELF']); ?>
 <header>
-    <img src="images/hamro-restaurant-logo.png" alt="Hamro Restaurant Logo" class="logo" style="width: 50px; height: 50px;">
+    <img src="images/hamro-restaurant-logo.png" alt="Hamro Restaurant Logo" class="logo" style="width: 40px; height: 40px;">
     <h1>Hamro Restaurant</h1>
     <nav>
             <ul class="nav-links">
