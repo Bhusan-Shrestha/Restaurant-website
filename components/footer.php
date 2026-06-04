@@ -68,7 +68,7 @@
     </div>
 
     <div class="site-footer__bottom">
-        <p>&copy; Copyright 2026. All Rights Reserved, Hamro Restaurant.</p>
+        <p>&copy; Copyright 2026 - <?php echo date("Y"); ?>. All Rights Reserved, Hamro Restaurant.</p>
         <p>Designed by<a href="https://bhusanshrestha.com.np/" target="_blank" style="text-decoration:none; color:#fc8c05;"> Bhusan Shrestha</a></p>
     </div>
 </footer>
