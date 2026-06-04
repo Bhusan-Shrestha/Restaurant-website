@@ -20,7 +20,7 @@
                 </div>
                 <div>
                     <h4>Email:</h4>
-                    <p><a href="mailto:hamrorestaurant@gmail.com">hamrorestaurant@gmail.com</a></p>
+                    <p><a href="mailto:bhushanshrestha2060@gmail.com">bhushanshrestha2060@gmail.com</a></p>
                 </div>
             </div>
 
@@ -32,8 +32,7 @@
                     <h4>Phone:</h4>
                     <p>
                         <span class="phone-one">
-                            <a href="tel:01-1234567">01-1234567</a>,
-                            <a href="tel:01-7654321">01-7654321</a>
+                            <a href="tel:+9779814247219">+977 9814247219</a>
                         </span>
                     </p>
                 </div>
