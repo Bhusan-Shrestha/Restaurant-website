@@ -14,8 +14,8 @@
 
 <body>
     <?php include 'components/header.php'; ?>
-    <!-- Contact Section -->
-    <section id="contact" class="container  mt-2">
+    <!-- Reservation Section -->
+    <section id="reserve" class="container  mt-2">
         <div class="mb-4">
             <h2 class="text-center fw-bold">Reserve Your Table</h2>
             <p class="text-center">We’re here to make your dining and event experience exceptional. Reach out to us for

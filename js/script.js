@@ -3,36 +3,6 @@ function toggleMenu() {
     nav.classList.toggle('active');
 }
 
-window.addEventListener('scroll', () => {
-    let sections = document.querySelectorAll('section');
-    let navLinks = document.querySelectorAll('.nav-links a');
-    const navTargets = {
-        home: '.nav-links a[href="index.php"]',
-        about: '.nav-links a[href="about.php"]',
-        menu: '.nav-links a[href="menus.php"]',
-        reserve: '.nav-links a[href="reserve.php"]'
-    };
-    
-    sections.forEach(section => {
-        let top = window.scrollY;
-        let offset = section.offsetTop - 100;
-        let height = section.offsetHeight;
-        let id = section.getAttribute('id');
-        
-        if (top >= offset && top < offset + height) {
-            navLinks.forEach(link => {
-                link.classList.remove('active');
-            });
-
-            const activeLink = document.querySelector(navTargets[id] || '');
-
-            if (activeLink) {
-                activeLink.classList.add('active');
-            }
-        }
-    });
-});
-
 // Gallery lightbox: show full image in Bootstrap modal when a gallery image is clicked
 document.addEventListener('DOMContentLoaded', function () {
     const galleryNodeList = document.querySelectorAll('.gallery-img');
