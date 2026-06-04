@@ -47,7 +47,7 @@
 
         <div class="footer-box footer-box--reservation">
             <h3>For Reservation</h3>
-            <p>Book your table now and experience the best dining in Kathmandu. Call us or email us to reserve your spot!</p>
+            <p style="text-align: justify;">Book your table now and experience the best dining in Kathmandu. Call us or email us to reserve your spot!</p>
             <a href="reserve.php" class="btn">Reserve Now</a>
 
         </div>
