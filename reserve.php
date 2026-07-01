@@ -65,7 +65,7 @@
                         <textarea class="form-control" id="message" name="message" rows="4"
                             placeholder="Add Your Special Request (Optional)"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <button type="submit" class="btn btn-warning">Send Message</button>
                 </form>
             </div>
         </div>
